@@ -7,6 +7,7 @@ Aplikasi ini berjalan sepenuhnya di browser tanpa reload halaman, menggunakan HT
 ---
 ## 🎯 Fitur Utama
 - ✅ Formulir pembayaran tagihan kuliah dengan validasi
+- ✅ Pemilihan Bulan Pembayaran Yang Tidak Membuat Anda Keberatan
 - 💳 Dukungan berbagai metode pembayaran:
   - Transfer Bank (Mandiri)
   - E-Wallet (Gopay, Bank Jago, Sea Bank)
