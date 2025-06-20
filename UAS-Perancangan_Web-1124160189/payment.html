@@ -16,17 +16,28 @@
 <body class="bg-gradient-to-br from-red-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 min-h-screen py-8 transition-colors duration-300">
     <div class="container mx-auto max-w-4xl px-4">
         <!-- Header with Dark Mode Toggle -->
-        <div class="text-center mb-8">
-            <div class="flex justify-center mb-4">
-                <button id="darkModeToggle" class="px-4 py-2 bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300 flex items-center gap-2">
-                    <span id="darkModeIcon">🌙</span>
-                    <span id="darkModeText">Dark Mode</span>
-                </button>
+         <!-- Header with Image and Text Side by Side -->
+<div class="flex items-center gap-6 mb-10 flex-wrap sm:flex-nowrap">
+    <!-- Gambar di kiri -->
+    <img src="assets/xinzoruo-merch-genshin.webp" alt="Logo" class="w-24 h-24 object-contain rounded-xl shadow-md">
+
+    <!-- Teks dan tombol di kanan -->
+    <div class="flex-1">
+        <div class="flex justify-between items-center flex-wrap sm:flex-nowrap gap-4 mb-4">
+            <h1 class="text-3xl font-bold text-gray-800 dark:text-white transition-colors duration-300">
+                Global Payment Portal
+            </h1>
+            <button id="darkModeToggle" class="px-4 py-2 bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300 flex items-center gap-2">
+                <span id="darkModeIcon">🌙</span>
+                <span id="darkModeText">Dark Mode</span>
+            </button>
         </div>
-        <div>
-            <h1 class="text-3xl font-bold text-gray-800 dark:text-white mb-2 transition-colors duration-300">Global Payment Portal</h1>
-            <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">Kelola transaksi dan pembayaran dengan mudah Hanya Di Global Payment Portal</p>
-        </div>
+        <p class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+            Kelola transaksi dan pembayaran dengan mudah Hanya Di Global Payment Portal
+        </p>
+    </div>
+</div>
+
         <div class="sticky">
             <div class="absolute inset-0 flex justify-center items-center opacity-10 pointer-events-none">
                 <img src="assets/logo-global.png" alt="Background Logo" class="w-full max-w-2xl object-contain">
